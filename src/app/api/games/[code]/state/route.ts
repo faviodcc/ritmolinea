@@ -42,12 +42,12 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
         const { data: song } = await db.from('songs').select('id,title,artist,release_year,image_url,genre,country').eq('id', round.song_id).single();
         roundPayload.song = song;
         if (isHost) {
-          const { data: answers } = await db.from('round_answers').select('intended_index,distance,base_score,streak_bonus,total_score,is_exact,is_late,player:game_players(id,name,avatar_id)').eq('round_id', round.id).order('total_score', { ascending: false });
+          const { data: answers } = await db.from('round_answers').select('intended_index,title_guess,title_correct,title_score,distance,base_score,streak_bonus,total_score,is_exact,is_late,player:game_players(id,name,avatar_id)').eq('round_id', round.id).order('total_score', { ascending: false });
           roundPayload.answers = answers ?? [];
         }
       }
       if (!isHost && me) {
-        const { data: myAnswer } = await db.from('round_answers').select('intended_index,distance,base_score,streak_bonus,total_score,is_exact,is_late').eq('round_id', round.id).eq('player_id', me.id).maybeSingle();
+        const { data: myAnswer } = await db.from('round_answers').select('intended_index,title_guess,title_correct,title_score,distance,base_score,streak_bonus,total_score,is_exact,is_late').eq('round_id', round.id).eq('player_id', me.id).maybeSingle();
         roundPayload.my_answer = myAnswer;
       }
     }

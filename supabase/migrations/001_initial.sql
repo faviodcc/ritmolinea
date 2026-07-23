@@ -27,7 +27,7 @@ create table public.songs (
   decade smallint not null check (decade between 1900 and 2100),
   genre text not null,
   country text not null,
-  spotify_url text not null check (spotify_url ~ '^https://open\\.spotify\\.com/'),
+  spotify_url text not null check (spotify_url like 'https://open.spotify.com/track/%'),
   difficulty smallint not null default 2 check (difficulty between 1 and 5),
   image_url text,
   tags text[] not null default '{}',

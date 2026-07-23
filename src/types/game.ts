@@ -39,6 +39,9 @@ export type TimelineCard = {
 
 export type RoundAnswer = {
   intended_index: number | null;
+  title_guess: string | null;
+  title_correct: boolean;
+  title_score: number;
   distance: number | null;
   base_score: number;
   streak_bonus: number;
