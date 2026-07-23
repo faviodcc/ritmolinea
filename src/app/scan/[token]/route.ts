@@ -1,0 +1,2 @@
+import { NextRequest, NextResponse } from 'next/server'; import { getSupabaseAdmin } from '@/lib/supabase/admin';
+export async function GET(request:NextRequest,{params}:{params:Promise<{token:string}>}){try{const{token}=await params;const{data,error}=await getSupabaseAdmin().rpc('mark_round_scanned',{p_token:token});if(error||!data?.[0]?.spotify_url)throw error??new Error('QR inválido');return NextResponse.redirect(data[0].spotify_url,307);}catch{return NextResponse.redirect(new URL('/?scan=invalid',request.url));}}
