@@ -20,6 +20,10 @@ import { avatarEmoji, formatMode } from '@/lib/utils';
 import { TimelineBoard } from './TimelineBoard';
 import { playTone } from '@/lib/sounds';
 
+function answerDraftKey(code: string, roundId: string) {
+  return `ritmolinea-answer:${code.toUpperCase()}:${roundId}`;
+}
+
 export function PlayerGame({ code }: { code: string }) {
   const { state, loading, error, refresh } = useGameState(code);
   const now = useNow();
@@ -48,8 +52,24 @@ export function PlayerGame({ code }: { code: string }) {
 
     initializedRound.current = round.id;
     const answer = round.my_answer;
-    const initialIndex = answer?.intended_index ?? null;
-    const initialTitle = answer?.title_guess ?? '';
+    let initialIndex = answer?.intended_index ?? null;
+    let initialTitle = answer?.title_guess ?? '';
+
+    if (typeof window !== 'undefined' && initialIndex === null && !initialTitle) {
+      try {
+        const stored = sessionStorage.getItem(answerDraftKey(code, round.id));
+        if (stored) {
+          const draft = JSON.parse(stored) as {
+            selected?: number | null;
+            titleGuess?: string;
+          };
+          if (Number.isInteger(draft.selected)) initialIndex = draft.selected!;
+          if (typeof draft.titleGuess === 'string') initialTitle = draft.titleGuess;
+        }
+      } catch {
+        // Un borrador dañado no debe impedir jugar.
+      }
+    }
 
     setSelected(initialIndex);
     setTitleGuess(initialTitle);
@@ -60,13 +80,41 @@ export function PlayerGame({ code }: { code: string }) {
       const signature = `${round.id}:${initialIndex}:${initialTitle
         .trim()
         .toLocaleLowerCase()}`;
-      lastSubmitted.current = signature;
-      setSaved(true);
+
+      if (
+        answer &&
+        answer.intended_index !== null &&
+        Boolean(answer.title_guess?.trim())
+      ) {
+        lastSubmitted.current = signature;
+        setSaved(true);
+      } else {
+        lastSubmitted.current = '';
+        setSaved(false);
+      }
     } else {
       lastSubmitted.current = '';
       setSaved(false);
     }
-  }, [state?.round]);
+  }, [code, state?.round]);
+
+  useEffect(() => {
+    const round = state?.round;
+    if (!round || typeof window === 'undefined') return;
+    const key = answerDraftKey(code, round.id);
+
+    if (round.status === 'revealed' || round.status === 'closed') {
+      sessionStorage.removeItem(key);
+      return;
+    }
+
+    if (round.status === 'answering') {
+      sessionStorage.setItem(
+        key,
+        JSON.stringify({ selected, titleGuess, updatedAt: Date.now() })
+      );
+    }
+  }, [code, selected, state?.round?.id, state?.round?.status, titleGuess]);
 
   useEffect(() => {
     if (state?.round?.status === 'revealed' && revealed.current !== state.round.id) {
@@ -92,9 +140,15 @@ export function PlayerGame({ code }: { code: string }) {
     if (
       !round ||
       round.status !== 'answering' ||
-      seconds <= 0 ||
       selected === null ||
       cleanTitle.length === 0
+    ) {
+      return;
+    }
+
+    if (
+      round.answer_deadline &&
+      Date.now() >= new Date(round.answer_deadline).getTime()
     ) {
       return;
     }
@@ -127,10 +181,10 @@ export function PlayerGame({ code }: { code: string }) {
       } finally {
         setSaving(false);
       }
-    }, 450);
+    }, 300);
 
     return () => window.clearTimeout(timer);
-  }, [code, refresh, seconds, selected, state?.round, titleGuess]);
+  }, [code, refresh, selected, state?.round?.id, state?.round?.status, titleGuess]);
 
   async function ready() {
     if (!state?.me) return;
@@ -230,7 +284,7 @@ export function PlayerGame({ code }: { code: string }) {
         <>
           <section className="mobilePanel glass titleGuessPanel">
             <h2>¿Qué canción es?</h2>
-            <p>Escribe el título y luego colócala en el año correcto.</p>
+            <p>Escribe solo el nombre normal de la canción. No necesitas poner artista ni autores.</p>
             <input
               className="titleGuessInput"
               type="text"
@@ -241,7 +295,7 @@ export function PlayerGame({ code }: { code: string }) {
               }}
               maxLength={120}
               autoComplete="off"
-              placeholder="Nombre de la canción"
+              placeholder="Ejemplo: La Bachata"
               aria-label="Nombre de la canción"
             />
             <small className={saved ? 'saveState saved' : 'saveState'}>
@@ -252,8 +306,7 @@ export function PlayerGame({ code }: { code: string }) {
           <section className="mobilePanel glass mobileStatus">
             <h2>¿En qué lugar va?</h2>
             <p>
-              Arrastra la carta entre los años. Puedes cambiar ambas respuestas
-              hasta que llegue a cero.
+              Toca una posición o arrastra la carta entre los años. Tu selección se conserva aunque desplaces la pantalla.
             </p>
           </section>
 

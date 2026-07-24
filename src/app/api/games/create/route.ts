@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { requireUser } from '@/lib/auth';
 import { apiError } from '@/lib/http';
 import { getSupabaseAdmin } from '@/lib/supabase/admin';
-import { shuffle, songMatchesMode } from '@/lib/game/modes';
+import { buildSongQueue, songMatchesMode } from '@/lib/game/modes';
 import type { Song } from '@/types/game';
 
 const schema = z.object({
@@ -26,8 +26,10 @@ export async function POST(request: NextRequest) {
     const supabase = getSupabaseAdmin();
     const { data: songs, error: songError } = await supabase.from('songs').select('*').eq('is_active', true).limit(2000);
     if (songError) throw songError;
-    const eligible = shuffle((songs as Song[]).filter((song) => songMatchesMode(song, body.mode)));
+    const library = songs as Song[];
+    const eligible = library.filter((song) => songMatchesMode(song, body.mode));
     if (eligible.length < body.totalRounds + 1) throw new Error(`El modo seleccionado necesita al menos ${body.totalRounds + 1} canciones activas y solo tiene ${eligible.length}. Agrega más en Biblioteca o reduce las rondas.`);
+    const selectedSongs = buildSongQueue(library, body.mode, body.totalRounds + 1);
 
     let gameCode = code();
     for (let i = 0; i < 6; i += 1) {
@@ -41,7 +43,7 @@ export async function POST(request: NextRequest) {
       theme: body.theme, scoring: body.scoring ?? undefined
     }).select('*').single();
     if (error) throw error;
-    const queue = eligible.slice(0, body.totalRounds + 1).map((song, position) => ({ game_id: game.id, position, song_id: song.id }));
+    const queue = selectedSongs.map((song, position) => ({ game_id: game.id, position, song_id: song.id }));
     const { error: queueError } = await supabase.from('game_song_queue').insert(queue);
     if (queueError) { await supabase.from('games').delete().eq('id', game.id); throw queueError; }
     return NextResponse.json({ code: gameCode });

@@ -1,19 +1,18 @@
 export const GAME_MODES = [
-  ['classic', 'Clásico', 'Una mezcla equilibrada para cualquier grupo'],
+  ['classic', 'Fiesta', 'Mayormente latina con algunos hits en inglés'],
   ['reggaeton', 'Reggaetón', 'Perreo, clásicos y éxitos urbanos'],
   ['rock', 'Rock', 'Guitarras, himnos y actitud'],
-  ['pop', 'Pop', 'Hits globales y coros inolvidables'],
+  ['pop', 'Pop', 'Hits latinos y globales con coros inolvidables'],
   ['peru', 'Perú', 'Artistas y canciones peruanas'],
   ['latino', 'Latino', 'Música en español de toda Latinoamérica'],
   ['tiktok', 'TikTok', 'Canciones impulsadas por tendencias'],
   ['disney', 'Disney', 'Películas, series y nostalgia'],
-  ['anime', 'Anime', 'Openings, endings y cultura japonesa'],
   ['90s', '90s', 'La década de los casetes y videoclips'],
-  ['2000s', '2000s', 'MP3, pop punk y reggaetón clásico'],
-  ['2010s', '2010s', 'Streaming, EDM y mega hits'],
+  ['2000s', '2000s', 'MP3, pop latino y reggaetón clásico'],
+  ['2010s', '2010s', 'Streaming, reggaetón y mega hits'],
   ['women', 'Solo mujeres', 'Voces femeninas protagonistas'],
   ['bands', 'Solo bandas', 'Grupos, dúos y colectivos'],
-  ['random', 'Aleatorio', 'Todo puede pasar']
+  ['random', 'Aleatorio', 'Mayormente latino con algunas sorpresas en inglés']
 ] as const;
 
 export const AVATARS = [

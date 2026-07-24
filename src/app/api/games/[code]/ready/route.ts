@@ -15,7 +15,7 @@ export async function POST(
 
     const { data: game, error: gameError } = await db
       .from('games')
-      .select('id,code,status')
+      .select('id,status')
       .eq('code', code.toUpperCase())
       .maybeSingle();
 
@@ -32,26 +32,6 @@ export async function POST(
       .eq('user_id', user.id);
 
     if (updateError) throw updateError;
-
-    const { data: players, error: playersError } = await db
-      .from('game_players')
-      .select('ready')
-      .eq('game_id', game.id);
-
-    if (playersError) throw playersError;
-
-    const playerList = players ?? [];
-
-    if (
-      playerList.length >= 2 &&
-      playerList.every((player) => Boolean(player.ready))
-    ) {
-      const { error: startError } = await db.rpc('start_game_by_code', {
-        p_code: game.code
-      });
-
-      if (startError) throw startError;
-    }
 
     return NextResponse.json({ ok: true });
   } catch (error) {

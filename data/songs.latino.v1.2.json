@@ -1,0 +1,948 @@
+[
+  {
+    "title": "Danza Kuduro",
+    "artist": "Don Omar, Lucenzo",
+    "release_year": 2010,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/2a1o6ZejUi8U3wzzOtCOYw",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "party"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Propuesta Indecente",
+    "artist": "Romeo Santos",
+    "release_year": 2013,
+    "decade": 2010,
+    "genre": "Bachata",
+    "country": "República Dominicana",
+    "spotify_url": "https://open.spotify.com/track/5PycBIeabfvX3n9ILG7Vrv",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "bachata"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Obsesión",
+    "artist": "Aventura",
+    "release_year": 2002,
+    "decade": 2000,
+    "genre": "Bachata",
+    "country": "República Dominicana",
+    "spotify_url": "https://open.spotify.com/track/65H6t1WQBim6q93yM8fEwn",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "bachata",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Persiana Americana",
+    "artist": "Soda Stereo",
+    "release_year": 1986,
+    "decade": 1980,
+    "genre": "Rock Latino",
+    "country": "Argentina",
+    "spotify_url": "https://open.spotify.com/track/57GgptBE1aWcVn83dWVjU1",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "rock",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Rayando el Sol",
+    "artist": "Maná",
+    "release_year": 1990,
+    "decade": 1990,
+    "genre": "Rock Latino",
+    "country": "México",
+    "spotify_url": "https://open.spotify.com/track/4Ofg5uuH7qqDIXpAJMpXZV",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "rock",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Suavemente",
+    "artist": "Elvis Crespo",
+    "release_year": 1998,
+    "decade": 1990,
+    "genre": "Merengue",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/1YwPNemawMgGe6sF4U0FTE",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "party"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "La Vida Es un Carnaval",
+    "artist": "Celia Cruz",
+    "release_year": 1998,
+    "decade": 1990,
+    "genre": "Salsa",
+    "country": "Cuba",
+    "spotify_url": "https://open.spotify.com/track/3zoYQLfNEvJ7UvQ4em2vsT",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "salsa",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Nunca Es Suficiente",
+    "artist": "Los Ángeles Azules, Natalia Lafourcade",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Cumbia",
+    "country": "México",
+    "spotify_url": "https://open.spotify.com/track/0HlMshB5JmZjPNbOuOgFHN",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "cumbia",
+      "band",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Robarte un Beso",
+    "artist": "Carlos Vives, Sebastián Yatra",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/0JcNysfWVWaMS7R6vzGB2k",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Mayores",
+    "artist": "Becky G, Bad Bunny",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Estados Unidos",
+    "spotify_url": "https://open.spotify.com/track/7JNh1cfm0eXjqFVOzKLyau",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Sin Pijama",
+    "artist": "Becky G, Natti Natasha",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Estados Unidos",
+    "spotify_url": "https://open.spotify.com/track/2ijef6ni2amuunRoKTlgww",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Criminal",
+    "artist": "Natti Natasha, Ozuna",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "República Dominicana",
+    "spotify_url": "https://open.spotify.com/track/6Za3190Sbw39BBC77WSS1C",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Se Preparó",
+    "artist": "Ozuna",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/1m69ELEgE6k5ZWsap40ozt",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Callaíta",
+    "artist": "Bad Bunny, Tainy",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/2TH65lNHgvLxCKXM3apjxI",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Vivir Mi Vida",
+    "artist": "Marc Anthony",
+    "release_year": 2013,
+    "decade": 2010,
+    "genre": "Salsa",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/3QHMxEOAGD51PDlbFPHLyJ",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "salsa",
+      "party"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Felices los 4",
+    "artist": "Maluma",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/0qYTZCo5Bwh1nsUFGZP3zn",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Chantaje",
+    "artist": "Shakira, Maluma",
+    "release_year": 2016,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/1WniHvhq9zTkny0WvGXX8o",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "La Bicicleta",
+    "artist": "Carlos Vives, Shakira",
+    "release_year": 2016,
+    "decade": 2010,
+    "genre": "Vallenato Pop",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/0sXvAOmXgjR2QUqLK1MltU",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Waka Waka",
+    "artist": "Shakira",
+    "release_year": 2010,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/2Cd9iWfcOpGDHLz6tVA3G4",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "women",
+      "party"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Súbeme la Radio",
+    "artist": "Enrique Iglesias, Descemer Bueno, Zion & Lennox",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "España",
+    "spotify_url": "https://open.spotify.com/track/7nKBxz47S9SD79N086fuhn",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "La Gozadera",
+    "artist": "Gente de Zona, Marc Anthony",
+    "release_year": 2015,
+    "decade": 2010,
+    "genre": "Salsa Urbana",
+    "country": "Cuba",
+    "spotify_url": "https://open.spotify.com/track/3ip2477VESffCtFkPFT0ov",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "salsa",
+      "party",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Pobre Diabla",
+    "artist": "Don Omar",
+    "release_year": 2003,
+    "decade": 2000,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/26RZ3DhnVlytdG6N1oxW1E",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Ella y Yo",
+    "artist": "Aventura, Don Omar",
+    "release_year": 2005,
+    "decade": 2000,
+    "genre": "Bachata",
+    "country": "República Dominicana",
+    "spotify_url": "https://open.spotify.com/track/1so3Diwy9pt9q6lHWINlfX",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "bachata",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Andar Conmigo",
+    "artist": "Julieta Venegas",
+    "release_year": 2003,
+    "decade": 2000,
+    "genre": "Pop Latino",
+    "country": "México",
+    "spotify_url": "https://open.spotify.com/track/05iMQqncVBIm4AE26EvaTL",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "La Rebelión",
+    "artist": "Joe Arroyo",
+    "release_year": 1986,
+    "decade": 1980,
+    "genre": "Salsa",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/00Ro1lnV3V6i87aY4t8Q43",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "salsa"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Con Altura",
+    "artist": "ROSALÍA, J Balvin, El Guincho",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "España",
+    "spotify_url": "https://open.spotify.com/track/2qG5sZ7Si6sdK74qLxedYM",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "women",
+      "tiktok"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Síguelo Bailando",
+    "artist": "Ozuna",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/5Y9fnynLlIvqtM710MHzfz",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Baila Baila Baila",
+    "artist": "Ozuna",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/7uH27oIt4a6cIFCA8ZPcyG",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "party"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "China",
+    "artist": "Anuel AA, Daddy Yankee, KAROL G, Ozuna, J Balvin",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/2ksOAxtIxY8yElEWw8RhgK",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Adicto",
+    "artist": "Tainy, Anuel AA, Ozuna",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/3jbT1Y5MoPwEIpZndDDwVq",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Otro Trago",
+    "artist": "Sech, Darell",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Panamá",
+    "spotify_url": "https://open.spotify.com/track/1Ej96GIBCTvgH7tNX1r3qr",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Te Boté - Remix",
+    "artist": "Nio García, Casper Mágico, Bad Bunny, Darell, Ozuna, Nicky Jam",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/3V8UKqhEK5zBkBb6d6ub8i",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "X",
+    "artist": "Nicky Jam, J Balvin",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/39N9RPD9MRb5WmoLzNzPeA",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "El Amante",
+    "artist": "Nicky Jam",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/3umS4y3uQDkqekNjVpiRUs",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Travesuras",
+    "artist": "Nicky Jam",
+    "release_year": 2014,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/1PtL0YQRtq3qxDGUSwZPJ5",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Hasta el Amanecer",
+    "artist": "Nicky Jam",
+    "release_year": 2016,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/4wFHfY9IILHLNwakPuFogD",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Ay Vamos",
+    "artist": "J Balvin",
+    "release_year": 2014,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/6j8JZ34YSJ3Yf7r2n2IPCX",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Ginza",
+    "artist": "J Balvin",
+    "release_year": 2015,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/7a6GeFdPlbQtd7BwVlZ52k",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Safari",
+    "artist": "J Balvin, Pharrell Williams, BIA, Sky",
+    "release_year": 2016,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/456xBIOmLRoLzCvCzZrWge",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Reggaetón Lento",
+    "artist": "CNCO",
+    "release_year": 2016,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Latinoamérica",
+    "spotify_url": "https://open.spotify.com/track/3AEZUABDXNtecAOSC1qTfo",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "reggaeton",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Hey DJ",
+    "artist": "CNCO",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Latinoamérica",
+    "spotify_url": "https://open.spotify.com/track/209gZgcfLq2aUuu51vOWBl",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Mamita",
+    "artist": "CNCO",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Latinoamérica",
+    "spotify_url": "https://open.spotify.com/track/71GAvRsilpo9pqd0vYn8Mo",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "band"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Calma - Remix",
+    "artist": "Pedro Capó, Farruko",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/5iwz1NiezX7WWjnCgY5TH4",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton",
+      "party"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Échame la Culpa",
+    "artist": "Luis Fonsi, Demi Lovato",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/2hl6q70unbviGo3g1R7uFx",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "women"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Vente Pa' Ca",
+    "artist": "Ricky Martin, Maluma",
+    "release_year": 2016,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/7DM4BPaS7uofFul3ywMe46",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "La Mordidita",
+    "artist": "Ricky Martin, Yotuel",
+    "release_year": 2015,
+    "decade": 2010,
+    "genre": "Pop Latino",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/00i0O74dXdaKKdCrqHnfXm",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "party"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Corazón",
+    "artist": "Maluma, Nego do Borel",
+    "release_year": 2017,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/4lESS6vuruP6a79KWRaQou",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "HP",
+    "artist": "Maluma",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/31UjYv5vLsDkzchJOtUMtW",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "11 PM",
+    "artist": "Maluma",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/7KbF6AdprOXEEHlsq11Z6d",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Taki Taki",
+    "artist": "DJ Snake, Selena Gomez, Ozuna, Cardi B",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Pop Urbano",
+    "country": "Latinoamérica",
+    "spotify_url": "https://open.spotify.com/track/4w8niZpiMy6qz1mntFA5uM",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "pop",
+      "reggaeton",
+      "women",
+      "tiktok"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "No Me Conoce - Remix",
+    "artist": "Jhayco, J Balvin, Bad Bunny",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/7rknFhrVDyxzTJkPSf7LoW",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Soltera - Remix",
+    "artist": "Lunay, Daddy Yankee, Bad Bunny",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/1c0hsvHLELX6y8qymnpLKL",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Otro Trago - Remix",
+    "artist": "Sech, Darell, Nicky Jam, Ozuna, Anuel AA",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Panamá",
+    "spotify_url": "https://open.spotify.com/track/4bTZeO72FwMa6wKOiqoynL",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "QUÉ PRETENDES",
+    "artist": "J Balvin, Bad Bunny",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/25ZAibhr3bdlMCLmubZDVt",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "LA CANCIÓN",
+    "artist": "J Balvin, Bad Bunny",
+    "release_year": 2019,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Colombia",
+    "spotify_url": "https://open.spotify.com/track/0fea68AdmYNygeTGI4RC18",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "MIA",
+    "artist": "Bad Bunny, Drake",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Reggaetón",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/3gE4eQH3K83Sght0ZLvuBK",
+    "difficulty": 1,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "reggaeton"
+    ],
+    "is_active": true
+  },
+  {
+    "title": "Amorfoda",
+    "artist": "Bad Bunny",
+    "release_year": 2018,
+    "decade": 2010,
+    "genre": "Latin Trap",
+    "country": "Puerto Rico",
+    "spotify_url": "https://open.spotify.com/track/3ITvHA9zhZZdBJsOsAUegF",
+    "difficulty": 2,
+    "image_url": null,
+    "tags": [
+      "latino",
+      "trap"
+    ],
+    "is_active": true
+  }
+]

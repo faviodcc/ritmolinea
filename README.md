@@ -106,3 +106,7 @@ npm run validate:static
 ## Licencia
 
 Código del proyecto bajo MIT. El nombre, identidad visual y catálogo musical deben revisarse legalmente antes de un lanzamiento comercial.
+
+## Actualización 1.2
+
+La versión 1.2 añade inicio manual, una biblioteca mayormente latina, validación flexible del nombre de la canción y selección cronológica persistente en celulares. Consulta `UPDATE_V1.2.md` para instalarla sobre una versión anterior.
